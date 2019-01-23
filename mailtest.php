@@ -10,7 +10,7 @@ $message = 'this is a test';
 $message = wordwrap($message, 70);
 
 //header field
-$headers = 'From: webmaster@mygifter.com' . "\r\n" .
+$headers = 'From: info@mygifter.com' . "\r\n" .
     'Reply-To: alouie987@yahoo.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
