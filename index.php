@@ -29,33 +29,6 @@
 		include ("login.php");
 	}
 	?>
-
-    <!-- Footer -->
-
-      <footer class="row">
-        <div class="large-10 small-6 columns"><hr />
-          <div class="row">
-
-            <div class="large-5 small-3 columns">
-              <p>&copy; Alex Louie 2013</p>
-            </div>
-
-            <div class="large-5 small-5 columns" id="footer-links">
-              <ul class="inline-list right">
-              	<li><p> Need help?</p></li>
-                <li><a href="http://www.amazon.com">Amazon.com</a></li>
-                <li><a href="http://www.shopping.yahoo.com">Yahoo Shopping</a></li>
-                <li><a href="http://www.google.com/shopping">Google Shopping</a></li>
-                <li><a href="http://www.consumerreports.org">Consumer Reports</a></li>
-              </ul>
-            </div>
-
-          </div>
-        </div>
-      </footer>
-
-    <!-- End Footer -->
-
     </div>
   </div>
   <!-- Check for Zepto support, load jQuery if necessary -->
@@ -95,13 +68,39 @@
 		include("giftTable.php");
 		include("modals.html");
 		?>
-		
+
 		<script src='js/menuLoad.js'></script>
 		<script src='js/exchangeLoad.js'></script>
 		<script src='js/tour.js'></script>
-		
-	
+
+
 <?php }//end login items?>
 
     </body>
+    <!-- Footer -->
+    <br>
+    <br>
+      <footer class="row">
+        <div class="large-10 small-6 columns"><hr />
+          <div class="row">
+
+            <div class="large-5 small-3 columns">
+              <p>&copy; Alex Louie 2013</p>
+            </div>
+
+            <div class="large-5 small-5 columns" id="footer-links">
+              <ul class="inline-list right">
+                <li><p> Need help?</p></li>
+                <li>*<a href="http://www.amazon.com">Amazon.com</a></li>
+                <li>*<a href="http://www.shopping.yahoo.com">Yahoo Shopping</a></li>
+                <li>*<a href="http://www.google.com/shopping">Google Shopping</a></li>
+                <li>*<a href="http://www.consumerreports.org">Consumer Reports</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+
+    <!-- End Footer -->
 </html>
